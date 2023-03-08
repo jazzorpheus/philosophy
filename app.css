@@ -1,0 +1,88 @@
+body {
+  overflow-x: hidden;
+  background-color: #7f1734;
+  font-family: Nunito, sans-serif;
+}
+
+.h1-one {
+  color: #f8f2c9;
+  font-size: 2.5rem !important;
+  opacity: 0.1;
+}
+.h1-two {
+  color: #f8f2c9;
+  font-size: 2.5rem !important;
+  opacity: 0.4;
+}
+.h1-three {
+  color: #f8f2c9;
+  font-size: 2.5rem !important;
+  opacity: 0.7;
+}
+.h1-main {
+  color: #f8f2c9;
+  font-size: 2.5rem !important;
+  opacity: 1;
+}
+
+#phi {
+  font-size: 3rem;
+}
+
+.blurb h2 {
+  color: #f8f2c9;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #f8f2c9;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: #f8f2c9;
+  background-color: rgba(0, 33, 71, 0.7);
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ac2048;
+}
+
+#mainNavbar .navbar-brand {
+  color: #f8f2c9;
+  font-size: 1.5rem;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+#headingGroup span {
+  color: #002147;
+}
+
+.navbar.scrolled {
+  background: rgba(0, 33, 71, 0.7);
+  transition: background 0.75s;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
